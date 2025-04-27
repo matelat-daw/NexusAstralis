@@ -12,7 +12,7 @@ export class RestComponent {
   constructor(http :HttpClient) {
     //  let response = http.get('https://jsonplaceholder.typicode.com/posts');
     //  let response = http.get('https://88.24.29.240/api/Account/Users');
-    let response = http.get('https://localhost:4200/api/Account/Users')
+    let response = http.get('https://localhost:7035/api/Account/Users')
      response.subscribe((data)=>this.posts=data);
   }
 }
